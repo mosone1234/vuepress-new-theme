@@ -1,0 +1,32 @@
+{
+  "name": "vuepress-new-theme",
+  "author": "onepercent",
+  "version": "0.0.9",
+  "description": "vuepress-new-theme",
+  "files": [
+    "index.js",
+    "styles",
+    "layouts",
+    "global-components",
+    "components",
+    "util"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "vuepress",
+    "theme",
+    "vuepress-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "@vuepress/plugin-nprogress": "^1.9.9"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
