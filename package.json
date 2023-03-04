@@ -1,28 +1,31 @@
 {
   "name": "@vuepress/vuepress-new-theme",
-  "author": "onepercent",
-  "version": "0.0.9",
-  "description": "vuepress-new-theme",
-  "files": [
-    "index.js",
-    "styles",
-    "layouts",
-    "global-components",
-    "components",
-    "util"
-  ],
-  "main": "index.js",
+  "version": "1",
+  "description": "VUEPRESS NEW THEME",
   "keywords": [
-    "vuepress",
-    "theme",
-    "vuepress-theme"
+    "documentation",
+    "generator",
+    "vue",
+    "vuepress"
   ],
+  "homepage": "https://github.com/vuejs/vuepress/blob/master/packages/@vuepress/theme-default#readme",
+  "bugs": {
+    "url": "https://github.com/vuejs/vuepress/issues"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/vuejs/vuepress.git",
+    "directory": "packages/@vuepress/theme-default"
   },
   "license": "MIT",
-  "homepage": "",
+  "author": "onepercent",
+  "maintainers": [
+    {
+      "name": "ONEPERCENT",
+      "email": "onepercent@localhost.com"
+    }
+  ],
+  "main": "index.js",
   "dependencies": {
     "@vuepress/plugin-active-header-links": "1.9.9",
     "@vuepress/plugin-nprogress": "1.9.9",
@@ -35,7 +38,7 @@
     "vuepress-plugin-container": "^2.0.2",
     "vuepress-plugin-smooth-scroll": "^0.0.3"
   },
-  "devDependencies": {
-    "vuepress": "^1.5.3"
+  "publishConfig": {
+    "access": "public"
   }
 }
