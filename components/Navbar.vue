@@ -1,7 +1,9 @@
 <template>
   <header class="navbar">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
-
+    <div>
+      Hola como estan
+    </div>
     <RouterLink
       :to="$localePath"
       class="home-link"
@@ -17,9 +19,11 @@
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+      >{{ $siteTitle }} MAS MAS</span>
     </RouterLink>
-
+    <div>
+      Hola como estan
+    </div>
     <div
       class="links"
       :style="linksWrapMaxWidth ? {
